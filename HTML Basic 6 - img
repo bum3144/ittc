@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Basic</title>
+</head>
+<body>
+    <img src="http://images.china.cn/attachement/jpg/site1007/20110315/0014222d98500ee923a014.jpg" alt="Penguins" width="300" />
+    <img src="Nothing" alt="No Image" width="300" />
+</body>
+</html>
