@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML7 Basic</title>
+</head>
+<body>
+
+   <audio src="Kalimba.mp3" controls="controls"></audio>
+   <audio src="Kalimba.mp3" controls="controls" autoplay="autoplay"></audio>
+   <audio src="Kalimba.mp3" controls autoplay></audio>
+   
+   
+   <hr />
+   
+    <audio controls="controls">
+        <source src="Kalimba.mp3" type="audio/mp3" />
+        <source src="Kalimba.ogg" type="audio/ogg" />
+    </audio>
+</body>
+</html>
