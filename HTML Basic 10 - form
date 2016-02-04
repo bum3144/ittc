@@ -5,6 +5,11 @@
 	<!--
 	<form method="get"> or <form method="post">
 	-->
+	
+	
+<style>
+fieldset { width: 250px; }
+</style>
 </head>
 <body>
     <form method="get"> 
