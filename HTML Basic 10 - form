@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Basic</title>
+	<!--
+	<form method="get"> or <form method="post">
+	-->
+</head>
+<body>
+    <form method="get"> 
+		color : <input name="color" type="color" /><br />
+		date : <input name="date" type="date" /><br />
+        datetime : <input name="datetime" type="datetime" /><br />
+        datetime-local : <input name="datetime-local" type="datetime-local" /><br />
+        email : <input name="email1" type="email" /><br />
+        month : <input name="month" type="month" /><br />
+        number : <input name="number" type="number" /><br />
+        range : <input name="range" type="range" /><br />
+        search : <input name="search" type="search" /><br />
+        tel : <input name="tel" type="tel" /><br />
+        time : <input name="time" type="time" /><br />
+        url : <input name="url" type="url" /><br />
+        week : <input name="week" type="week" /><br />
+        textarea : <textarea>TextArea Text</textarea><br />
+        
+        select :  
+		<select name="select1">
+        <option>ramen</option>
+        <option>icecream</option>
+        <option>Halo-halo</option>
+        <option>steak food</option>
+        </select><br />
+
+        select multiple :  
+		<select name="select2" multiple="multiple">
+        <option>ramen</option>
+        <option>icecream</option>
+        <option>Halo-halo</option>
+        <option>steak food</option>
+        </select><br />
+        
+        
+        select optgroup : 
+		<select name="optgroup">
+			<optgroup label="HTML5">
+				<option>Multimedia Tag</option>
+				<option>Connectivity</option>
+				<option>Device Access</option>
+			</optgroup>
+			<optgroup label="CSS3">
+				<option>Animation</option>
+				<option>3D Transform</option>
+			</optgroup>
+		</select><br />
+
+
+        <fieldset>
+            <legend>INPUT FORM</legend>
+            <table>
+                <tr>
+                    <td><label for="name1">NAME</label></td>
+                    <td><input id="name1" name="name1" type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">EMAIL</label></td>
+                    <td><input id="mail" name="email2" type="email" /></td>
+                </tr>
+            </table>
+        </fieldset><br />
+
+        reset : <input type="reset" /><br />
+        submit : <input type="submit" />
+    </form>
+</body>
+</html>
