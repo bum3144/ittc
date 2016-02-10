@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Basic</title>
+<!--
+	<style>
+		span { border : 1px blue solid ;  width : 600px ; }
+		div { border : 1px red solid ;  width : 600px ; }
+	</style>
+-->
+
+</head>
+<body>
+    <div>
+        <h1>HTML5 Header</h1>
+    </div>
+    <div>
+        <ul>
+            <li><a href="#">Menu - 1</a></li>
+            <li><a href="#">Menu - 2</a></li>
+            <li><a href="#">Menu - 3</a></li>
+        </ul>
+    </div>
+    <div>
+        <div>
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div>
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <div>
+        <span>Prestige Tower, F. Ortigas, Jr. Rd., Ortigas Center</span>
+    </div>
+</body>
+</html>
