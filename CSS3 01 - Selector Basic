@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Selector Basic</title>
+    <style>
+		body {
+			background-color: #d0e4fe;
+		}
+
+        h1 {
+            color: red;
+            background-color: orange; 
+        }
+		h2 {
+			color: green;
+			text-align: center;
+		}
+		p {
+			font-family: "Times New Roman";
+			font-size: 20px;
+		}
+    </style>
+</head>
+<body>
+    <h1>CSS3 Selector Basic</h1>
+
+	<div>
+		<h2>What is CSS?</h2>
+		<ol>
+			<li>CSS stands for Cascading Style Sheets</li>
+			<li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+			<li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+			<li>External stylesheets are stored in CSS files</li>
+		</ol>
+
+		<h2>Why Use CSS?</h2>
+		<p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+	</div>
+	<div>
+		<h3>CSS Syntax</h3>
+		<span>A CSS rule-set consists of a selector and a declaration block:</span><br/>
+		<img src="http://www.w3schools.com/css/selector.gif"><br/>
+		<ul>
+			<li>The selector points to the HTML element you want to style.</li>
+			<li>The declaration block contains one or more declarations separated by semicolons.</li>
+			<li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+			<li>A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.</li>
+			<li>In the following example all < p > elements will be center-aligned, with a red text color:</li>
+		</ul>
+		<div>
+			The element Selector Example => p { color: red; text-align: center; } <br/>
+			The id Selector Example => #para1 { text-align: center; color: red; } <br/>
+			The class Selector Example => .center { text-align: center; color: red; } <br/>
+		</div>
+	<div>
+</body>
+</html>
