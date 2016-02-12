@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Selector Basic</title>
+    <style>
+        /* input enabled -> white */
+        input:enabled { background-color: white; }
+
+        /* input disabled -> gray  */
+        input:disabled { background-color: gray; }
+
+        /* input tag focus -> orange */
+        input:focus { background-color: orange; }
+    </style>
+</head>
+<body>
+    <h2>Enabled</h2>
+    <input />
+    <h2>Disabled</h2>
+    <input disabled="disabled"/>
+</body>
+</html>
+
