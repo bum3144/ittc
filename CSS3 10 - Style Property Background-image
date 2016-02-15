@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Property Basic</title>
+    <style>
+        body {
+            background-image: url('http://www.planwallpaper.com/static/images/latest.jpg');
+
+
+			/* 
+			The current folder -> Desert.jpg 
+            background-image: url('Desert.jpg');
+            
+            Of the Other folder within the current folder -> Desert.jpg 
+            background-image: url('Other/Desert.jpg');
+            
+            the root folder -> Desert.jpg          
+            background-image: url('/Desert.jpg');
+			*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor amet.</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</body>
+</html>
