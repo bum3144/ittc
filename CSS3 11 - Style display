@@ -6,6 +6,10 @@
         #box {
             display: none;
         }
+
+		/*
+		none, block, inline, inline-block
+		*/
     </style>
 </head>
 <body>
