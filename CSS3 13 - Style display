@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Style Property Basic</title>
+    <style>
+		/*
+			visible, hidden, collapse, opacity
+
+			- collapse : table tag hidden
+			- opacity : transparency ( 0 ~ 1 )
+			- hover : mouseover
+		*/
+		
+        #box1 {
+            visibility: visible;
+        }
+		#box1:hover{
+            visibility: hidden;
+		}
+        table {
+            visibility: collapse;
+        }
+		
+        #box2 {
+            background-color: black;
+            color: white;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <span>Dummy</span>
+    <div id="box1">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+    </div>
+    <span>Dummy</span>
+
+	<hr />
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <table>
+        <tr><td>Test</td><td>Test</td></tr>
+        <tr><td>Test</td><td>Test</td></tr>
+        <tr><td>Test</td><td>Test</td></tr>
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+	<hr />
+
+    <span>Dummy</span>
+    <div id="box2">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+    </div>
+    <span>Dummy</span>
+	<hr />
+</body>
+</html>
