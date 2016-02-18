@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Font Property</title>
+    <style>
+        .font_big { font-size: 2em }
+        .font_italic { font-style: italic }
+        .font_bold { font-weight: bold }
+        .font_center { text-align: center }
+        .font_right { text-align: right }
+    </style>
+</head>
+<body>
+    <p class="font_big font_italic font_bold font_center">Lorem ipsum dolor amet</p>
+    <p class="font_bold font_right">2012.04.21</p>
+    <p>BACOLOD City – PDP-Laban presidential candidate and Davao Mayor Rodrigo Duterte is so used to death threats that another one no longer shakes him. 
+
+“That has been going on even when I was mayor. I’m used to it actually,” Duterte told reporters during his meeting with Bacolod Bishop Vicente Navarra yesterday.
+
+On Tuesday, rumors circulated that hired guns from Iloilo were out to assassinate him during his visit here yesterday.  Sources from within the Duterte camp were informed that some Iloilo-based drug lords hired the would-be killers.
+
+Duterte declared during his meeting with Navarra that he is not afraid to die.
+
+“The one thing that got me going all these years is I believe in destiny – the destiny that God has crafted for you. If there’s one passage I read almost everyday to remind me of God, it is ‘There’s a time to love, a time to be born, a time to die.’ If panahon mo na, panahon mo na (if it is your time, then it is your time),” he added.
+
+Navarra assured Duterte of his prayers to guide him in his presidential bid, just like any candidate who would ask for his prayers.
+
+He also told the mayor to follow the law if he gets elected president.
+
+Duterte also visited his supporters at a convention center and held a dialog with the transport sector.</p>
+</body>
+</html>
