@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Font Property</title>
+    <style>
+        a:nth-child(2) { text-decoration: none }
+        a:nth-child(3):hover { text-decoration: none }
+    </style>
+</head>
+<body>
+    <h1>
+        <a href="#">(1)Lorem ipsum dolor amet</a>
+        <a href="#">(2)Lorem ipsum dolor amet</a>
+        <a href="#">(3)Lorem ipsum dolor amet</a>
+    </h1>
+</body>
+</html>
