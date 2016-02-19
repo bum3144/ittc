@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Property Basic</title>
+    <style>
+        .box { 
+            width: 100px; height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1) {
+            background-color: red;
+            left: 10px; top: 10px;
+        }
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px; top: 50px;
+        }
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 90px; top: 90px;
+        }
+
+
+        .box1 { 
+            width: 100px; height: 100px; 
+            position: fixed;
+        }
+        .box1:nth-child(4) {
+            background-color: red;
+            left: 300px; top: 10px;
+            z-index: 100;
+        }
+        .box1:nth-child(5) {
+            background-color: green;
+            left: 250px; top: 50px;
+            z-index: 10;
+        }
+        .box1:nth-child(6) { 
+            background-color: blue;
+            left: 191px; top: 90px;
+            z-index: 1;
+        }
+
+		table{
+            position: absolute;
+            left: 10px; top: 200px;	
+		}
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+
+	<TABLE border="1">
+	<caption>Property Values</caption>
+	<thead style="background: skyblue">
+	<TR>
+		<TH>Value</TH>
+		<TH>Description</TH>
+	</TR>
+	</thead>
+	<tbody>
+	<TR>
+		<TD>static</TD>
+		<TD>Default value. Elements render in order, as they appear in the document flow</TD>
+	</TR>
+	<TR>
+		<TD>absolute</TD>
+		<TD>The element is positioned relative to its first positioned (not static) ancestor element</TD>
+	</TR>
+	<TR>
+		<TD>fixed</TD>
+		<TD>The element is positioned relative to the browser window</TD>
+	</TR>
+	<TR>
+		<TD>relative</TD>
+		<TD>The element is positioned relative to its normal position, so "left:20" adds 20 pixels to the element's LEFT position</TD>
+	</TR>
+	</tbody>
+	</TABLE>
+</body>
+</html>
+
