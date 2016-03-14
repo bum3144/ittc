@@ -46,6 +46,18 @@ JavaScript is Case Sensitive
 
 	lastName = "Doe";
 	lastname = "Peterson";
+	
+JavaScript and Camel Case
+Historically, programmers have used three ways of joining multiple words into one variable name:
+
+Hyphens:
+	first-name, last-name, master-card, inter-city.
+
+Underscore:
+	first_name, last_name, master_card, inter_city.
+
+Camel Case:
+	FirstName, LastName, MasterCard, InterCity.	
 -->
 
 <script>
