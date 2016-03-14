@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+* JavaScript syntax is the set of rules, how JavaScript programs are constructed.
+
+JavaScript Programs
+	A computer program is a list of "instructions" to be "executed" by the computer.
+	In a programming language, these program instructions are called statements.
+	JavaScript is a programming language.
+	JavaScript statements are separated by semicolons.
+
+JavaScript Statements
+	Values, Operators, Expressions, Keywords, and Comments.
+
+JavaScript Values
+	The JavaScript syntax defines two types of values: Fixed values and variable values.
+	Fixed values are called literals. Variable values are called variables.
+
+Numbers are written with or without decimals:
+	10.50
+	1001
+
+Strings are text, written within double or single quotes:
+	"John Doe"
+	'John Doe'
+
+JavaScript Variables
+	In a programming language, variables are used to store data values.
+	JavaScript uses the var keyword to declare variables.
+	An equal sign is used to assign values to variables.
+
+In this example, x is defined as a variable. Then, x is assigned (given) the value 6:
+	var x;
+	x = 6;
+
+JavaScript Operators
+JavaScript uses an assignment operator ( = ) to assign values to variables:
+	var x = 5;
+	var y = 6;
+
+JavaScript is Case Sensitive
+	All JavaScript identifiers are case sensitive. 
+	The variables lastName and lastname, are two different variables.
+
+	lastName = "Doe";
+	lastname = "Peterson";
+-->
+
+<script>
+var x = 5;
+var y = 6;
+var z = x + y;
+var person = "Hege";
+var person1="Hege";
+
+
+console.log(z);
+console.log(person);
+console.log(person1);
+</script>
+
+</head>
+
+<body>
+</body>
+</html>
