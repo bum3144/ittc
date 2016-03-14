@@ -64,13 +64,15 @@ Camel Case:
 var x = 5;
 var y = 6;
 var z = x + y;
-var person = "Hege";
-var person1="Hege";
+var first-name = "Hege";
+var last_name="Hege";
+var MasterCard= "Hege";
 
 
 console.log(z);
-console.log(person);
-console.log(person1);
+console.log(first-name);
+console.log(last_name);
+console.log(MasterCard);
 </script>
 
 </head>
