@@ -50,9 +50,6 @@ JavaScript is Case Sensitive
 JavaScript and Camel Case
 Historically, programmers have used three ways of joining multiple words into one variable name:
 
-Hyphens:
-	first-name, last-name, master-card, inter-city.
-
 Underscore:
 	first_name, last_name, master_card, inter_city.
 
@@ -64,13 +61,15 @@ Camel Case:
 var x = 5;
 var y = 6;
 var z = x + y;
-var first-name = "Hege";
+var first-Name = "Hege";
+var firstname = "Hege";
 var last_name="Hege";
 var MasterCard= "Hege";
 
 
 console.log(z);
 console.log(first-name);
+console.log(firstname);
 console.log(last_name);
 console.log(MasterCard);
 </script>
