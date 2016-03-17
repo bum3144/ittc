@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+
+/*
+	alert('I am \t a boy');
+	alert('I am \n a boy');
+	alert('I am \' a boy');
+	alert('I am \" a boy');
+	alert('I am \\ a boy'); 
+
+	alert(10 + 10 * 2);
+	alert((10 + 10) * 2);
+	alert((10 + 10) % 2);
+	alert(10 % 7);
+	alert(52 < 273);
+	alert(52 <= 52);
+	alert(52 <= 52);
+	alert(52 == 52);
+	alert(52 != 52);
+	alert("school" != "schol");
+	alert(true > false);
+	alert(1 > 0);
+
+if (275 < 52)
+{
+	alert("I am a student");
+}
+if (273 > 52)
+{
+	alert("I am a boy");
+}
+
+if (275 < 52)
+{
+	alert("I am a student");
+}else{
+	alert("I am a boy");
+}
+
+alert(!true);
+
+
+alert(30 > 20 > 10);
+↓
+alert((30 > 20) > 10);
+↓
+alert(true > 10);
+↓
+alert(1 > 10);
+↓
+alert(false);
+
+Logical operator
+! , && (and) , || (or)
+alert(30 < 20 || 20 > 10);
+alert(30 > 20 && 20 < 10);
+*/
+
+alert(30 > 20 && 20 < 10);
+
+
+</script>
+
+</head>
+
+<body>
+</body>
+</html>
