@@ -25,6 +25,13 @@ var pi = 3.14159265;
 var person = "John Doe";
 var answer = 'Yes I am!';
 
+
+
+Declaring (Creating) JavaScript Variables
+Creating a variable in JavaScript is called "declaring" a variable.
+
+You declare a JavaScript variable with the var keyword:
+
 var carName;
 carName = "Volvo";
 
@@ -48,6 +55,8 @@ var booleanVar = ture;
 var functionVar = function() {};
 var objectVar = {};
 */
+
+
 
 </script>
 
