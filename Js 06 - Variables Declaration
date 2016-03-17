@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+
+/*
+JavaScript Variables Declaration
+JavaScript variables are containers for storing data values.
+
+In this example, x, y, and z, are variables:
+
+var x = 5;
+var y = 6;
+var z = x + y;
+
+x stores the value 5
+y stores the value 6
+z stores the value 11
+
+
+
+Example
+var pi = 3.14159265;
+var person = "John Doe";
+var answer = 'Yes I am!';
+
+var carName;
+carName = "Volvo";
+
+var carName = "Volvo";
+
+radius calculation
+var radius = 10;
+var pi = 3.14159265;
+alert(2 * pi * radius);
+
+
+var radius, pi
+radius = 10;
+pi = 3.14159265;
+alert(2 * pi * radius);
+
+5 Variables Declaration
+var stringVar = 'String';
+var numberVar = 273;
+var booleanVar = ture;
+var functionVar = function() {};
+var objectVar = {};
+*/
+
+</script>
+
+</head>
+
+<body>
+</body>
+</html>
