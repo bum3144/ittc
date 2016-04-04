@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" >
+<title> Type Conversions </title >
+</head>
+<body>
+
+<h1> Type Conversions </h1 >
+
+<script type="text/javascript" >
+"use strict"	// -->  javascript use strict!!
+
+
+// Conversions: Number(data), String(data), Boolean(data), Object(data)
+// Number(data) => window.Number(data)
+
+console.log("test..ok");
+window.console.log( "test..ok");
+
+// Q1) Number type
+console.log("=== Number type ===");
+console.log(window.Number(undefined)); //NaN (Not a Number)
+console.log(Number( null));  // 0
+console.log(Number( true));  // 1
+console.log(Number( false)); // 0
+console.log(Number( ""));    // 0
+console.log(Number( "3.14"));// 3.14
+console.log(Number( "ok"));  // NaN
+console.log(Number(10));    // 10
+console.log(Number(NaN));   // NaN
+console.log(Number({name: 'David',age:20})); // NaN
+
+// Q2) string type
+console.log("=== string type ===");
+console.log(window.String(undefined)); //"undefined"
+console.log(String( null));  // "null"
+console.log(String( true));  // "true"
+console.log(String( false)); // "false"
+console.log(String( ""));    //
+console.log(String( "3.14"));// "3.14"
+console.log(String( "ok"));  // "ok"
+console.log(String(10));    // "10"
+console.log(String(NaN));   // "NaN"
+console.log(String({name: 'David',age:20})); // [object Object] => tree node
+
+
+//Q3) Boolean type
+console.log("=== Boolean type ===");
+console.log(window.Boolean(undefined)); //false
+console.log(Boolean( null));  // false
+console.log(Boolean( true));  // true
+console.log(Boolean( false)); // false
+console.log(Boolean( ""));    // false
+console.log(Boolean( "3.14"));// true
+console.log(Boolean( "ok"));  // true
+console.log(Boolean(10));    // true
+console.log(Boolean(NaN));   // false
+console.log(Boolean({name: 'David',age:20})); // true 
+
+
+//Q4) Object type
+console.log("=== Object type ===" );
+console.log(window.Object(undefined)); //Object {}
+console.log(Object( null));  // Object {}
+console.log(Object( true));  // Boolean {}
+console.log(Object( false)); // Boolean {}
+console.log(Object( ""));    // String {length: 0}
+console.log(Object( "3.14"));// String {0: "3", 1: ".", 2: "1", 3: "4", length: 4}
+console.log(Object( "ok"));  // String {0: "o", 1: "k", length: 2}
+console.log(Object(10));    // Number {}
+console.log(Object(NaN));   // Number {}
+console.log(Object({name: 'David',age:20})); // Object {name: "David", age: 20} 
+
+
+// * Extension (implicit)
+console.log(" Extension ====================================" );
+console.log(20 && 30); //30
+console.log(true < false); //false
+console.log(true << 2); //4
+console.log("20" - "30"); //-10
+
+</script>
+</body>
+</html>
