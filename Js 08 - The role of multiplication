@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The role of multiplication</title>
+
+<script>
+
+/***** result *****
+
+*
+**
+***
+****
+*****
+
+******************/
+for (i=0; i<5; i++ )
+{
+	for (j=0; j<i+1; j++ )
+	{
+		document.write("*");
+	}
+document.write("<br>");
+}
+
+
+document.write("<br><br><br>");
+/***** result *****
+
+*****
+****
+***
+**
+*
+
+***************
+
+for (i=0; i<5; i++ )
+{
+	for (j=0; j<5-i; j++ )
+	{
+		document.write("*");
+	}
+document.write("<br>");
+}
+
+
+***/
+
+</script>
+</head>
+
+<body>
+
+
+</body>
+</html>
