@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" >
+<title> Array and Loop example </title >
+</head>
+<body>
+
+<h1> Array and Loop </h1>
+
+<script type="text/javascript" >
+"use strict"
+
+// Array : JavaScript arrays are used to store multiple values in a single variable
+// [item1, item2, ...]
+// new Array(item1, item2, item3)
+
+var scores = [100, 99, 98, 80, 100];
+console.log(scores); // [100, 99, 98, 80, 100]
+console.log(scores[0],scores[1],scores[2],scores[3],scores[4],scores[5]);
+//result=> 100 99 98 80 100 undefined
+console.log(scores.length);
+
+// Array.prototype.pop() : It will find item of last
+// prototype 
+console.log("========== pop() ==========");
+console.log(scores.pop());
+console.log(scores);
+
+//Array.prototype.push() : add item
+console.log("========== push() ==========");
+scores.push(120);
+scores.push(150);
+scores.push(200,500); // 200, 500 => Argument
+console.log(scores);
+
+// simple way to add item
+var scores2 = [100,100];
+console.log(scores2.length); // 2
+scores2[1] = 98;
+console.log(scores2); // [100, 98]
+
+scores2[2] = 80;
+console.log(scores2); // [100, 98, 80]
+
+scores2[10] = 50;
+console.log(scores2.length, scores2);
+// 11 [100, 98, 80, 10: 50] =>  11 [100, 98, 80, , , , , , , , 50]
+
+// Array : can mix other types of values.
+var scores3 = ["English" ,100,'100',80, true,{name:'Adrian' ,age:30},3.14];
+console.log(scores3[0]);
+
+// loop - array
+
+console.log("========== Output array using loops ==========" );
+// ex) for (i=0; i<3; i++) { };
+
+// ref: Number of the array starts at zero. 
+for (var i=0; i < scores3.length; i++){
+      console.log(scores3[i]);
+}
+
+console.log("========== for 2 ==========");
+var i = 0;
+for ( ; i < scores3.length; i++){
+  console.log(scores3[i]);
+}
+
+console.log("========== for 3 ==========");
+var i = 0;
+for ( ; i < scores3.length; ){
+  console.log(scores3[i]);
+  i += 1;
+}
+
+// while 
+// while(Condition) Command;
+// while(Condition) {Command;Command;Command...}
+
+console.log("========== while 1 ==========");
+var i = 0;
+while (i < scores3.length){
+  console.log(scores3[i]);
+  i += 1;
+}
+
+// Out of loop
+
+console.log("========== while 2 ==========");
+var i = 0;
+while (true ){
+       if(i >= scores3.length){
+              break;
+      }
+  console.log(scores3[i]);
+  i += 1;
+}
+
+
+// Q: scores3 =>Output the only numbers
+console.log("========== Question ==========");
+var i = 0;
+while (i < scores3.length){
+/*      if((typeof scores3[i]) === (typeof 1)){   */
+             if((typeof scores3[i]) == 'Number'){ 
+                console.log(scores3[i]);
+        }
+  i++;
+}
+
+
+// for .. in :
+// Array -> Sequentially pull zoom the index of the array.
+// Object -> Find the value sequentially
+// for (var VARIABLE in ARRAY or OBJECT) Command;
+// for (var VARIABLE in ARRAY or OBJECT) {Command;Command;Command;...}
+
+
+console.log("========== for..in..  ==========");
+for (var i in scores3) {
+      console.log(scores3[i]);
+}
+
+// do.. while: Running first, after check
+console.log("========== do.. while  ==========");
+var i = 0;
+do {
+      console.log(scores3[i]);
+      i++;
+} while (i < scores3.length)
+
+
+</script>
+</body>
+</html>
