@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+// Ternary operator
+// (commend) ? (true) : (false);
+/*
+var input = prompt('give the number','');
+var number = Number(input);
+
+(number > 0) ? alert('true') : alert('false'); 
+*/
+
+/*
+true || alert('true Good');
+false || alert('false Good');
+*/
+
+//true && alert('true Good');
+//false && alert('false Good');
+
+var input = Number(prompt('give the number','number'));
+
+input % 2 == 0 || alert('even-number');
+input % 2 == 0 && alert('uneven-number');
+
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
