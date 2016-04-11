@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+/*
+var input = Number(prompt('give the number.','Number'));
+
+switch (input % 2)
+{
+case 0:
+	alert('even-number');
+	break;
+case 1:
+	alert('uneven-number');
+	break;
+default:
+	alert('not number');
+	break;
+}
+*/
+
+var date = new Date();
+var hour = date.getHours();
+
+switch (true)
+{
+case hour < 11:
+	alert('Good morning!');
+	break;
+case hour < 18:
+	alert('Good afternoon!');
+	break;
+default:
+	alert('Good evening!');
+	break;
+}
+</script>
+</head>
+<body>
+</body>
+</html>
