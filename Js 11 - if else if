@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+var date = new Date();
+var hour = date.getHours();
+
+/*
+if (hour < 12)
+{
+	alert(hour + ' Good Morning!');
+}
+if (hour >= 12)
+{
+	alert(hour + ' Good Afternoon!');
+}
+
+
+if (hour < 12)
+{
+	alert(hour + ' Good Morning!');
+} else {
+	alert(hour + ' Good Afternoon!');
+}
+
+
+if (hour < 11)
+{
+	alert(hour + ' Good Morning!');
+} else {
+	if (hour < 18)
+	{
+		alert(hour + ' Good Afternoon!');
+	} else {
+		alert(hour + ' Good evening!');
+	}
+}
+
+*/
+
+if (hour < 11)
+{
+	alert(hour + ' Good Morning!');
+} else if (hour < 18) {
+	alert(hour + ' Good Afternoon!');
+} else {
+	alert(hour + ' Good evening!');
+}
+
+</script>
+</head>
+<body>
+</body>
+</html>
+
