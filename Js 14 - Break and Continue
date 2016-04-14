@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+/*
+JavaScript Break and Continue
+
+The break statement "jumps out" of a loop.
+The continue statement "jumps over" one iteration in the loop.
+
+*/
+
+var output = 0;
+for (var i = 0; i <= 10; i++)
+{
+	if (i % 2 == 1)	// uneven-number 
+	{
+		continue;
+	//	break;
+	}
+	output += i;
+}
+alert(output);
+
+</script>
+</head>
+<body>
+</body>
+</html>
