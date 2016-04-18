@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+/*
+JavaScript Parameters and return Statement
+Function parameters are the names listed in the function definition.
+Function arguments are the real values passed to (and received by) the function.
+
+Parameter Rules
+JavaScript function definitions do not specify data types for parameters.
+JavaScript functions do not perform type checking on the passed arguments.
+JavaScript functions do not check the number of arguments received.
+*/
+
+
+
+/*
+
+// ex 01
+
+function f(x) {
+	return x * x;
+}
+console.log(f(3));
+
+
+
+
+// ex 02
+
+alert('parameter 01', 'parameter 02') //one available
+prompt('parameter 01') // two available
+
+
+
+
+// ex 03
+
+var array1 = Array();
+var array2 = Array(10);
+var array3 = Array(258,123,57,12);
+document.write(array1 + '<br>' + array2 + '<br>' + array3);
+console.log(array1 + '<br>' + array2 + '\n' + array3);
+
+
+
+// Array() -> Create an empty array.
+// Array(number) -> Create an array of the parameters as size.
+// Array(any, ... any,) -> Create an array.
+
+
+
+// ex 04
+
+function test() {
+	console.log(typeof(arguments));
+	console.log(arguments.length);
+//	alert(typeof(arguments) + ' : ' + arguments.length);
+}
+
+test(1,2,3,4,5,6,7,8,9);
+
+
+//The Arguments Object
+// JavaScript functions have a built-in object called the arguments object.
+// The argument object contains an array of the arguments used when the function was called (invoked).
+
+
+
+// ex 05
+
+function sumAll() {
+	var output = 0;
+	for (var i = 0; i < arguments.length; i++){
+		output += arguments[i];
+	}
+	return output;
+}
+
+console.log(sumAll(1,2,3,4,5,6,7,8,9));
+
+
+
+// ex 06
+
+function f(x) { return x * x; }
+var returnValues = f(5);
+document.write(returnValues);
+
+
+
+
+// ex 07
+
+function returnFunction() {
+	alert('text A');
+	return;
+	alert('text B');
+}
+
+returnFunction();
+
+
+
+// ex 08
+
+function returnFunction() {
+	alert('text A');
+	return;
+	alert('text B');
+}
+
+var output = returnFunction();
+alert(typeof(output) + ' : ' + output);
+
+// It does not return anything.
+*/
+
+
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
