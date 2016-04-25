@@ -35,15 +35,15 @@ function callTenTimes(callback){
 	} 
 }
 callback = (function() {
-	alert('hahahaha'));
-}
+	alert('hahahaha');
+});
 
 
 
 // example 3
 // A function that returns a function.
 
-function callTenTimes(){
+function returnFunction(){
 	return function(){
 		alert('Hello hahahaha .. !'));
 	} 
