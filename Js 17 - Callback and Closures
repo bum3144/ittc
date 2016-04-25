@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+/*
+JavaScript callback
+
+Callback functions are extremely important in Javascript. They’re pretty much everywhere.
+A callback is a function to be executed after another function is executed. 
+
+*/
+
+/*
+// example 1
+// Callback functions
+function callTenTimes(callback){
+	// Repeat 10 times
+	for (var i=0; i<10; i++){
+		callback();
+	} 
+}
+var callback = function() {
+	alert('hahahaha');
+}
+callTenTimes(callback);
+
+
+
+// example 2
+// Anonymous callback function
+function callTenTimes(callback){
+	// Repeat 10 times
+	for (var i=0; i<10; i++){
+		callback();
+	} 
+}
+callback = (function() {
+	alert('hahahaha'));
+}
+
+
+
+// example 3
+// A function that returns a function.
+
+function callTenTimes(){
+	return function(){
+		alert('Hello hahahaha .. !'));
+	} 
+}
+returnFunction()();
+
+
+
+// JavaScript Closures
+// JavaScript variables can belong to the local or global scope.
+// Private variables can be made possible with closures.
+
+
+
+
+
+// example 4
+function test(name) {
+	var output = 'hello ' + name + ' .. !';
+}
+//페이지 오류
+alert(output);
+
+
+
+// example 5
+function test(name) {
+	var output = 'hello ' + name + ' .. !';
+	return function () {
+		alert(output);
+	}
+}
+
+test('JavaScript');
+
+
+
+
+
+//test('JavaScript')();
+
+
+
+
+
+// example 6
+function test(name) {
+	var output = 'hello ' + name + ' .. !';
+	return function () {
+		alert(output);
+	}
+}
+
+var test_1 = test('JavaScript');
+var test_2 = test('Web');
+
+
+
+
+
+test_1();
+test_2();
+
+
+*/
+
+
+
+
+
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
