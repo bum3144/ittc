@@ -105,7 +105,7 @@ calc2(minus2, 10, 20);
 */
 
 
-
+/*
 // 문제: 반복문을 사용하지 않고 배열다루기
 // Using the array without using a loop.
 
@@ -134,7 +134,7 @@ console.log("myEach() + function(){}  -----------------------");
 myEach(names, function(index, item) {
   console.log(item);
 })
-
+*/
 
 
 </script>
