@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" >
+<title> Inner function </title >
+</head>
+<body>
+
+<h1> Inner function</h1>
+
+<script type="text/javascript" >
+"use strict"
+
+// 함수는 함수 안에서 정의 될수 있다.
+// * 내장 함수를 사용하는 이유?
+// 1) 외부 공개를 제한 -> 공개적으로  사용하지 않은 함수는 감추어서,
+// 진짜 필요할 때함수 이름 쓸수 없게 한다.
+// 2) 외부에서 연결 불가! -> 보안장치
+/*
+function calc(a, b, op){
+       switch(op){
+        case '+' :
+                return plus(a,b);
+        case '-' :
+                return minus(a,b);
+        default:
+              throw 'Not Applicable!!' ; // Error -> throw      
+      }
+      
+       function plus(a, b){
+             return a + b;
+      }
+      
+       function minus(v1, v2){
+             return a - b;
+      }
+}
+
+
+function plus(a, b){
+  return a*a + b*b;
+}
+
+
+
+ //console.log(calc(10,20, '+')); // 
+ //console.log(calc(10,20)); // 
+ //console.log(plus(10,20)); // 
+
+*/
+
+
+
+
+/*
+// 내장 함수의 다른 용도 : 공장역할! "Factory Method" Pattern            
+function runFactory(level) { // run() 함수를 만드는 공장역할!
+ 
+       /*  switch(arguments[0]){ *-/
+       switch(level){   
+          case 2: return run2;
+          case 3: return run3;
+          default: return run1;
+        }
+      
+        function run1(){
+                console.log( "I run." );
+              }
+        function run2(){
+                console.log( "I'm running.");
+              }
+        function run3(){
+                console.log( "I'm running on the street." );
+              }
+}
+var level = prompt("Running level?" ,1);
+var run = runFactory(Number(level));
+
+run(); 
+
+*/
+
+/*
+ * 함수를 파라미터로 받기 
+ * Get the function as parameters.
+ *-/
+
+function plus2(a,b) {
+       return a + b;
+}
+
+function minus2(a,b) {
+       return a - b;
+}
+
+
+function calc2(f, a, b){
+      console.log(f(a,b));
+}
+
+console.log(" 파라미터로 함수를 받아서 호출하기 " + "\n" + " call the function as a parameter-----------------------" );
+calc2(plus2, 10, 20);
+calc2(minus2, 10, 20);
+
+*/
+
+
+
+// 문제: 반복문을 사용하지 않고 배열다루기
+// Using the array without using a loop.
+
+function myEach(arr,f) {
+       for (var i in arr) {
+            f(i, arr[i]);
+      }
+}
+var names = ['david' ,'tom', 'sunny','jQuery' ,'adrian', 'java'];
+
+//1) The old way.
+console.log("array..The old way-----------------------" );
+for (var i in names) {
+      console.log(names[i]);
+}
+
+//2) myEach를 사용한 현대식 방식
+console.log("myEach -----------------------" );
+var fx = function (index, item) {
+      console.log(item);
+};
+myEach(names, fx);
+
+//3) myEach() + function(){} => modern way
+console.log("myEach() + function(){}  -----------------------");
+myEach(names, function(index, item) {
+  console.log(item);
+})
+
+
+
+</script>
+
+</body>
+</html>
