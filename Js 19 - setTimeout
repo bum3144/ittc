@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" >
+<title> setTimeout </title >
+</head>
+<body>
+
+<h1> setTimeout </h1 >
+
+<script type="text/javascript" >
+"use strict"
+
+/*
+setTimeout()
+setInterval()
+clearTimeout()
+clearInterval()
+*/
+
+//Display an alert box after 3 seconds (3000 milliseconds):
+/*
+// 1. EX
+setTimeout(function() {
+	alert('Hello ~ 3 seconds');
+},3000);
+
+
+Definition and Usage
+The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds.
+	* 1000 ms = 1 second.
+	* The function is only executed once. If you need to repeat execution, use the setInterval() method.
+	* Use the clearTimeout() method to prevent the function from running.
+*/
+
+
+// 2. EX
+/*
+var intervalID = setInterval(function(){
+	document.write('<p>' + new Date() + '</p>');
+},1000);
+
+setTimeout(function() {
+	// End timer
+	clearInterval(intervalID);
+},10000);
+*/
+
+
+
+// 3. EX
+// 현재 단위가 끝나기전에는 실행되지 않는다.
+/*
+alert('A');
+setTimeout(function(){
+	alert('B');
+},0)
+alert('C');
+*/
+
+
+
+// 4. EX
+// 호출 시점이 반복문이 모두 끝난 이후이므로 문제발생
+for (var i=0; i<3;i++ )
+{
+	setTimeout(function(){
+		alert(i);
+	},0);
+}
+</SCRIPT>
+</body>
+</html>
+
