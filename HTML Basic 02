@@ -19,5 +19,16 @@
     <sup>Lorem ipsum dolor sit amet</sup><br />
     <ins>Lorem ipsum dolor sit amet</ins><br />
     <del>Lorem ipsum dolor sit amet</del><br />
+    
+    <h1> Html TEXT Basic page </h1>
+    <h2>HTML Display</h2>
+    <hr/>
+    <p>
+    You cannot be sure how <b>HTML</b> will be displayed.<br/>
+    <i>Large</i> or <small>small</small> screens,<br/>
+    and <sub>resized</sub> windows <sup>will</sup> create <br/>
+    <ins>different</ins> results.<br/>
+    <del>Any number of spaces, and any .....</del>
+    </p>
 </body>
 </html>
