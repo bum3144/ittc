@@ -3,6 +3,10 @@
 <head>
     <title>CSS3 Property Basic</title>
     <style>
+    /*
+    참고 사이트:
+    http://aboooks.tistory.com/82
+    */
         .box { 
             width: 100px; height: 100px;
             position: absolute;
