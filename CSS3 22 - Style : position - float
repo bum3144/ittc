@@ -6,6 +6,8 @@
     /* 
         참고: http://itux.tistory.com/entry/CSS-Float%EC%86%8D%EC%84%B1%EC%9D%98-%EB%AA%A8%EB%93%A0-%EA%B2%83 
         참고2 : http://alistapart.com/article/css-floats-101
+        https://www.youtube.com/watch?v=YEsNZiCcQtU
+        https://opentutorials.org/course/45/63
     */
         img {
             float: left;
