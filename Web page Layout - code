@@ -159,7 +159,17 @@
         }
 	</style>
 	<!-- footer style -->
-	<style></style>
+	<style>
+    #main_footer{
+      width:960px; margin: 0 auto;
+      margin-bottom: 10px;
+
+      box-sizing: border-box;
+      padding: 10px;
+      border: 1px solid black;
+      text-align: center;
+    }
+  </style>
 </HEAD>
 
 <BODY>
@@ -309,6 +319,10 @@
 		</div>
 		</aside>
 	</div>
-	<footer></footer>
+	<footer id="main_footer">
+    <h3>HTML5 + CSS3 Basic</h3>
+    <address>Website Layout Basic</address>
+
+  </footer>
 </BODY>
 </HTML>
